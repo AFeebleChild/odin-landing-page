@@ -1,20 +1,92 @@
 * {
-    background: #1F2937;
     font-family: "roboto", "Times New Roman", sans-serif;
     text-align: center;
-    border: red;
-    border-style: solid;
+    margin: 0px;
+    /* border: red; */
+    /* border-style: solid; */
 }
 
 .hero-main-text {
+    background: #1F2937;
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
 }
 
-.hero-secondary-text {
+.header-bar {
+    display: flex;
+}
+
+.header-bar div {
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: #1F2937;
+}
+
+.header-bar a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    background: #E5E7EB;
+}
+
+.quote-text div {
+    max-width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25%;
+    justify-content: center;
+}
+
+.quote-text h6 {
+    text-align: right;
+    font-weight: bold;
+}
+
+.call-to-action {
+    color: #3882F6;
+}
+
+.rounded-image {
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+}
+
+.flex-container {
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.flex-container div {
+    flex: 1 1 0%;
+    padding: 5px;
 }
 
 a:link {
@@ -31,43 +103,4 @@ a:hover {
 
 a:active {
     color: darkturquoise
-}
-
-.header-logo-text {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.info-header-text {
-    font-size: 36px;
-    font-weight: bold;
-    color: #1F2937;
-}
-
-.quote-text {
-    font-size: 36px;
-    font-weight: italic;
-    color: #1F2937;
-    background: #E5E7EB;
-}
-
-.call-to-action {
-    color: #3882F6;
-}
-
-
-.flex-container {
-    display: flex;
-    /* justify-content: space-between; */
-    /* padding: 10px; */
-    /* margin: 0 auto; */
-}
-
-.flex-container div {
-    flex: 1 1 0%;
-}
-
-span {
-    width: 50px;
-    height: 50px;
 }
