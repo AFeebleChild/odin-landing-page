@@ -10,10 +10,12 @@
 .header-bar {
     display: flex;
     flex: 1;
+    top: 0;
+    left: 0;
     position: fixed;
     width: 100%;
     background: #1F2937;
-    min-height: 50px;
+    z-index: 9;
 }
 
 .header-logo-text {
@@ -42,8 +44,57 @@
 }
 
 .header-link:hover {
-    color: blue;
+    color: #6082B6;
     text-shadow: 0 0 5px lightblue;
+}
+
+.welcome-section {
+    position: relative;
+}
+
+.welcome-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+    width: 60%;
+    padding: 2em;
+    margin: 200px auto;
+    border-radius: 2em;
+    box-shadow: 0 0 2em #6082B6;
+}
+
+.introduction {
+    font-size: 36px;
+    text-align: left;
+}
+
+.introduction-image {
+    border-radius: 50%;
+}
+
+.image-section {
+    /* position: relative; */
+}
+
+.image-title {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background: white;
+}
+
+.image-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.rounded-image {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
 }
 
 .quote-text {
@@ -65,13 +116,19 @@
 }
 
 .call-to-action {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10%;
+    padding-bottom: 50px;
+    padding-top: 50px;
     background: #3882F6;
     color: #E5E7EB;
-    width: 60%;
-    margin-left: 20%;
+    width: 50%;
+    margin-left: 25%;
     margin-top: 5%;
     border-radius: 15px;
-    justify-content: center;
 }
 
 .call-to-action h2 {
@@ -93,26 +150,7 @@
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
-    border-radius: 15px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
-}
-
-.rounded-image {
-    border-radius: 5%;
-    width: 200px;
-    height: 200px;
-}
-
-.flex-container {
-    display: flex;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    align-items: center;
-    justify-content: center;
-}
-
-.flex-container div {
-    flex: 1 1 0%;
-    padding: 5px;
 }
