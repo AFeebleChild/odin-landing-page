@@ -69,7 +69,34 @@
 }
 
 .call-to-action {
-    color: #3882F6;
+    background: #3882F6;
+    color: #E5E7EB;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.call-to-action h2 {
+    text-align: left;
+    padding-left: 20%;
+}
+
+.call-to-action p {
+    text-align: left;
+    padding-left: 20%;
+}
+
+.call-to-action a {
+    border: solid white 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .rounded-image {
@@ -82,6 +109,8 @@
     display: flex;
     padding-bottom: 50px;
     padding-top: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex-container div {
