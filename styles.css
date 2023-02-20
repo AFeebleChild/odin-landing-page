@@ -2,57 +2,53 @@
     font-family: "roboto", "Times New Roman", sans-serif;
     text-align: center;
     margin: 0px;
-    /* border: red; */
-    /* border-style: solid; */
-}
-
-.hero-main-text {
-    background: #1F2937;
-    font-size: 48px;
-    font-weight: bold;
+    border: 0px;
+    background: #36454F;
     color: #F9FAF8;
 }
 
 .header-bar {
     display: flex;
-}
-
-.header-bar div {
-    display: flex;
-    flex: 1 1 0%;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+    flex: 1;
+    position: fixed;
+    width: 100%;
     background: #1F2937;
-}
-
-.header-bar a {
-    text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    min-height: 50px;
 }
 
 .header-logo-text {
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8;
-}
-
-.header-secondary-text {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.info-header-text {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
     font-size: 36px;
     font-weight: bold;
-    color: #1F2937;
+    background: #1F2937;
+}
+
+.header-links {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    background: #1F2937;
+}
+
+.header-link {
+    text-decoration: none;
+    background: #1F2937;
+}
+
+.header-link:hover {
+    color: blue;
+    text-shadow: 0 0 5px lightblue;
 }
 
 .quote-text {
     font-size: 36px;
     color: #1F2937;
-    background: #E5E7EB;
 }
 
 .quote-text div {
@@ -79,16 +75,19 @@
 }
 
 .call-to-action h2 {
+    background: #3882F6;
     text-align: left;
     padding-left: 20%;
 }
 
 .call-to-action p {
+    background: #3882F6;
     text-align: left;
     padding-left: 20%;
 }
 
 .call-to-action a {
+    background: #3882F6;
     border: solid white 2px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -116,20 +115,4 @@
 .flex-container div {
     flex: 1 1 0%;
     padding: 5px;
-}
-
-a:link {
-    color: #F9FAF8;
-}
-
-a:visited {
-    color: #F9FAF8;
-}
-
-a:hover {
-    color: pink
-}
-
-a:active {
-    color: darkturquoise
 }
